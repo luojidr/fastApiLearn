@@ -1,0 +1,13 @@
+.idea/
+__pycache__/
+config/.env/
+venv/
+logs/
+*.log
+.vscode/*
+*.DS_Store
+.AppleDouble
+.LSOverride
+tests/
+staticfiles/
+app.log
