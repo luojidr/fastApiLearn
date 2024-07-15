@@ -29,4 +29,5 @@ if __name__ == "__main__":
 
     # 这里运行时，使用reload=True，在脚本中不能热更新，但在命令行中就可以
     # uvicorn runserver:app --port 8080 --reload  --log-level trace [ --log-level=trace]
+    # uvicorn lessons.body_params:app --port 8080 --reload  --log-level trace [ --log-level=trace]
     uvicorn.run(app="runserver:app", host="0.0.0.0", port=8080, reload=True)
